@@ -1,8 +1,7 @@
 <?php
 $serverName = "theeducatorbox.cdtmubvsavf4.us-east-2.rds.amazonaws.com"; //serverName\instanceName
 
-// Since UID and PWD are not specified in the $connectionInfo array,
-// The connection will be attempted using Windows Authentication.
+
 $connectionInfo = array( "Database"=>"The_Educator_Box", "UID"=>"owenga", "PWD"=>"Otieno2016*");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 

@@ -95,10 +95,10 @@ if (isset($_POST['insert'])){
                 </div>
             </div>    
             <!--buttons to input and manage data  -->
-            <button class="ready">New</button>
+            <button type="submit" class="success" name="insert"> Save</button> 
             <button class="update">Edit</button>
             <button class="danger">Delete</button>
-            <button type="submit" class="success" name="insert"> Save</button> 
+           
         </form> 
          
     </body>
